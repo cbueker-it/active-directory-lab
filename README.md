@@ -12,32 +12,32 @@ Lab Objectives
 
 Virtual Lab Environment
 
-This lab was built in Oracle VM VirtualBox using Windows Server 2022. The virtual machine provided an isolated environment for practicing server deployment and Active Directory administration.
+I built this lab in Oracle VM VirtualBox using Windows Server 2022. The virtual machine provided an isolated environment for practicing server deployment and Active Directory administration.
 
 <img src="images/Oracle VM VirtualBox Manager.png" alt="Oracle VM VirtualBox Manager" width="700"/>
 Network Configuration
 
-A static IPv4 address was configured before promoting the server to a domain controller. This ensures reliable communication for DNS and Active Directory services.
+I configured a static IPv4 address before promoting the server to a domain controller. This ensures reliable communication for DNS and Active Directory services.
 
 <img src="images/Internet Protocol Version 4 Properties.png" alt="Internet Protocol Version 4 Properties" width="700"/>
 Network Verification
 
-After assigning the static address, network details were reviewed to confirm the IPv4 address, subnet mask, and default gateway.
+After assigning the static address, I verified the IPv4 address, subnet mask, and default gateway.
 
 <img src="images/Network Connection Detals.png" alt="Network Connection Details" width="700"/>
 Active Directory Structure
 
-Organizational units were created to separate departments and organize administrative objects inside the domain.
+I created organizational units to separate departments and organize administrative objects inside the domain.
 
 <img src="images/AD Users and Computers.png" alt="AD Users and Computers" width="700"/>
 Group Membership Management
 
-User accounts were assigned to security groups to simulate role-based administration inside the domain.
+I assigned user accounts to security groups to simulate role-based administration inside the domain.
 
 <img src="images/User Properties Active Directory.png" alt="User Properties Active Directory" width="700"/>
 Group Policy Configuration
 
-Password policy settings were reviewed and configured to strengthen account security across the domain.
+I reviewed and configured password policy settings to strengthen account security across the domain.
 
 <img src="images/Group Policy Management Editor.png" alt="Group Policy Management Editor" width="700"/>
 
