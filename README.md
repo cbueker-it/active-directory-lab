@@ -1,18 +1,19 @@
 **Active Directory Lab**
 
-I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice core Active Directory administration tasks. This shows domain controller setup, static IP configuration, DNS configuration, organizational unit design, user and group administration, and Group Policy security settings.
+I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice fundamental Active Directory administration tasks. My lab shows the domain controller setup, static IP configuration, DNS configuration, organizational unit design, user and group administration, and Group Policy security settings.
 
 Lab Objectives
 - Install Windows Server in Oracle VM VirtualBox
 - Promote the server to a domain controller
 - Configure a static IPv4 address and DNS settings
 - Create organizational units for departments
-- Create users and assign them to groups
+- Create users and groups and assign permissions to each group
+- Assign users to a specific group
 - Review password policy and account lockout settings
 
 Virtual Lab Environment
 
-I built this lab in Oracle VM VirtualBox using Windows Server 2022 to create an isolated practice environment. This shows how virtualization supports server deployment and Active Directory administration.
+I built this lab in Oracle VM VirtualBox using Windows Server 2022 to create an isolated practice environment. This shows how creating a virtual machine can support server deployment and Active Directory administration.
 
 <img src="images/Oracle VM VirtualBox Manager.png" alt="Oracle VM VirtualBox Manager" width="700"/>
 
