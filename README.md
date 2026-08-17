@@ -17,7 +17,7 @@ Lab Objectives
 - Defined the subnet mask and default gateway for consistent network connectivity.
 - Configured the server to use its local DNS service for Active Directory name resolution.
 
-![Static Network Configuration](images1/01-static-networking.png)
+![Static Network Configuration](./images1/01-static-networking.png)
 
 
 **Network Configuration Validation**
@@ -26,7 +26,7 @@ Lab Objectives
 - Confirmed the assigned IPv4 address, subnet mask, and default gateway.
 - Validated the active Ethernet adapter configuration through Windows Network Connection Details.
 
-![Network Configuration Validation](images1/02-network-validation.png)
+![Network Configuration Validation](./images1/02-network-validation.png)
 
 
 **Active Directory Directory Structure**
@@ -35,7 +35,7 @@ Lab Objectives
 - Created departmental OUs for Finance, HR, IT, Computers, Groups, and Users.
 - Added user accounts to establish a structured directory environment for centralized administration.
 
-![Active Directory Directory Structure](images1/03-directory-structure.png)
+![Active Directory Directory Structure](./images1/03-directory-structure.png)
 
 
 **Helpdesk Group Membership**
@@ -44,7 +44,7 @@ Lab Objectives
 - Used security-group membership to support role-based access control rather than assigning permissions directly to individual users.
 - Maintained the default `Domain Users` membership while adding the helpdesk role.
 
-![Helpdesk Group Membership](images1/04-group-membership.png)
+![Helpdesk Group Membership](./images1/04-group-membership.png)
 
 
 **Domain Password Policy**
@@ -52,9 +52,8 @@ Lab Objectives
 - Configured password policy through the Default Domain Policy in Group Policy Management.
 - Enforced password history, password-age requirements, and a minimum password length.
 - Enabled password complexity requirements and disabled reversible password encryption.
-- Applied centralized password controls to domain user accounts.
 
-![Domain Password Policy](images1/05-password-policy.png)
+![Domain Password Policy](./images1/05-password-policy.png)
 
 
 **Active Directory User Validation**
@@ -63,7 +62,7 @@ Lab Objectives
 - Confirmed the `cbaker` account name and enabled status.
 - Queried the user's Active Directory security-group membership from the command line.
 
-![Active Directory User Validation](images1/06-ad-user-membership-validation.png)
+![Active Directory User Validation](./images1/06-ad-user-membership-validation.png)
 
 
 **Helpdesk Tier-1 Group Validation**
@@ -72,7 +71,7 @@ Lab Objectives
 - Queried the `Helpdesk-Tier1` security group and confirmed its assigned user accounts.
 - Validated the Active Directory domain name, NetBIOS name, and domain functional mode.
 
-![Helpdesk Tier-1 Group Validation](images1/07-helpdesk-tier1-group-validation.png)
+![Helpdesk Tier-1 Group Validation](./images1/07-helpdesk-tier1-group-validation.png)
 
 Skills Practiced
 - Windows Server installation
