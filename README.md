@@ -1,8 +1,8 @@
 **Active Directory Lab**
 
-Active Directory is a core part of many Windows business environments because it gives administrators one place to manage users, groups, access, and security policies. Without a structured directory, user management can become inconsistent, permissions can be harder to control, and security settings can vary across the environment.
+Active Directory gives system administrators one central place to manage users, groups, access, and security policies. Because of that, it is a core part of many business environments. Without a centralized structure for the user directory, management can become inconsistent, permissions can be harder to control and standardize, and security settings can vary across the business.
 
-I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice solving those problems in a controlled environment. I configured the server and network, organized Active Directory users and organizational units, assigned users to security groups, applied domain password policy, and used PowerShell to validate the configuration. The lab focuses on the connection between identity, access control, networking, and security administration.
+I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice solving these problems in a controlled environment. I configured the server and network, organized Active Directory users and organizational units, assigned users to security groups, and applied domain password policy. Finally, I used PowerShell from the command line to validate the configuration and confirm that the system was working as expected. This lab focuses on the connection between user identity, access control, networking, and security administration.
 
 **Lab Objectives**
 
@@ -74,14 +74,13 @@ I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice sol
 
 ![Helpdesk Tier-1 Group Validation](./images1/07-helpdesk-tier1-group-validation.png)
 
-Skills Practiced
-- Windows Server installation
-- Active Directory domain services
-- DNS configuration
-- Static IP assignment
-- Organizational unit design
-- User and group administration
-- Group Policy review
+**Lessons Learned**
+
+- A centralized directory makes it easier to manage users, groups, and security settings consistently.
+- Organizational units help keep users and resources structured so administration is easier to manage.
+- Security groups make access control easier to standardize than assigning permissions directly to individual users.
+- Network and DNS configuration are important because Active Directory depends on reliable communication between systems.
+- PowerShell is useful for validating Active Directory settings and confirming that users, groups, and domain information are configured correctly.
 
 Summary
 
