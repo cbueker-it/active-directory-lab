@@ -1,15 +1,16 @@
 **Active Directory Lab**
 
-I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice fundamental Active Directory administration tasks. My lab shows the domain controller setup, static IP configuration, DNS configuration, organizational unit design, user and group administration, and Group Policy security settings.
+Active Directory is a core part of many Windows business environments because it gives administrators one place to manage users, groups, access, and security policies. Without a structured directory, user management can become inconsistent, permissions can be harder to control, and security settings can vary across the environment.
 
-Lab Objectives
-- Install Windows Server in Oracle VM VirtualBox
-- Promote the server to a domain controller
+I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice solving those problems in a controlled environment. I configured the server and network, organized Active Directory users and organizational units, assigned users to security groups, applied domain password policy, and used PowerShell to validate the configuration. The lab focuses on the connection between identity, access control, networking, and security administration.
+
+**Lab Objectives**
+
+- Build a Windows Server virtual machine and promote it to a domain controller
 - Configure a static IPv4 address and DNS settings
-- Create organizational units for departments
-- Create users and groups and assign permissions to each group
-- Assign users to a specific group
-- Review password policy and account lockout settings
+- Create and organize Active Directory organizational units and user accounts
+- Create security groups and assign users to the appropriate groups
+- Configure domain password policy and validate Active Directory settings with PowerShell
 
 **Static Network Configuration**
 
