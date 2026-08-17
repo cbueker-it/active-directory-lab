@@ -76,17 +76,15 @@ I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice sol
 
 **Lessons Learned**
 
-- A centralized directory makes it easier to manage users, groups, and security settings consistently.
-- Organizational units help keep users and resources structured so administration is easier to manage.
-- Security groups make access control easier to standardize than assigning permissions directly to individual users.
-- Network and DNS configuration are important because Active Directory depends on reliable communication between systems.
-- PowerShell is useful for validating Active Directory settings and confirming that users, groups, and domain information are configured correctly.
+- I learned that a centralized directory makes it easier to manage users, groups, and security settings consistently within a business environment.
+- I learned that organizational units help keep users and resources structured in a way that makes them much easier for system administrators to manage.
+- I learned that security groups make access control easier to standardize compared to assigning permissions directly to individual end-user accounts and devices.
+- I learned how network and DNS configuration come into play because Active Directory depends on reliable communication between networks and systems.
+- I got to use PowerShell and see how useful it is for validating Active Directory settings and confirming that users, groups, and domain information are configured correctly.
 
 Summary
 
-This lab brought together the core pieces of Active Directory administration in one working environment. I configured the server and network, organized users and groups, applied security policy, and used PowerShell to validate the final configuration.
-
-The project helped reinforce how identity, access control, networking, and security settings work together to support a centralized Windows business environment.
+This lab brought together the core pieces of Active Directory administration in one working environment. I configured the server and network, organized users and groups, applied security policy, and used PowerShell to validate the final configuration. The project helped reinforce how identity, access control, networking, and security settings work together to support a centralized Windows business environment.
 
 Navigation
 
