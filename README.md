@@ -80,7 +80,7 @@ I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice sol
 - I learned that organizational units help keep users and resources structured in a way that makes them much easier for system administrators to manage.
 - I learned that security groups make access control easier to standardize compared to assigning permissions directly to individual end-user accounts and devices.
 - I learned how network and DNS configuration come into play because Active Directory depends on reliable communication between networks and systems.
-- I got to use PowerShell and see how useful it is for validating Active Directory settings and confirming that users, groups, and domain information are configured correctly.
+- I used PowerShell and got to see how useful it is for validating Active Directory settings and confirming that users, groups, and domain information are configured correctly.
 
 Summary
 
