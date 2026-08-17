@@ -84,7 +84,9 @@ I built this hands-on Windows Server lab in Oracle VM VirtualBox to practice sol
 
 Summary
 
-This lab demonstrates practical Windows Server administration in a virtual environment. It shows how core infrastructure tasks connect across identity, networking, and security management in entry-level systems administration work.
+This lab brought together the core pieces of Active Directory administration in one working environment. I configured the server and network, organized users and groups, applied security policy, and used PowerShell to validate the final configuration.
+
+The project helped reinforce how identity, access control, networking, and security settings work together to support a centralized Windows business environment.
 
 Navigation
 
