@@ -11,41 +11,68 @@ Lab Objectives
 - Assign users to a specific group
 - Review password policy and account lockout settings
 
-Virtual Lab Environment
+**Static Network Configuration**
 
-I built this lab in Oracle VM VirtualBox using Windows Server 2022 to create an isolated practice environment. This shows how creating a virtual machine can support server deployment and Active Directory administration.
+- Configured a static IPv4 address for the Windows Server domain controller.
+- Defined the subnet mask and default gateway for consistent network connectivity.
+- Configured the server to use its local DNS service for Active Directory name resolution.
 
-<img src="images/Oracle VM VirtualBox Manager.png" alt="Oracle VM VirtualBox Manager" width="700"/>
+![Static Network Configuration](images1/01-static-networking.png)
 
-Network Configuration
 
-I configured a static IPv4 address before promoting the server to a domain controller. This shows how stable addressing supports DNS and Active Directory services.
+**Network Configuration Validation**
 
-<img src="images/Internet Protocol Version 4 Properties.png" alt="Internet Protocol Version 4 Properties" width="700"/>
+- Verified that DHCP was disabled and the server was using a static network configuration.
+- Confirmed the assigned IPv4 address, subnet mask, and default gateway.
+- Validated the active Ethernet adapter configuration through Windows Network Connection Details.
 
-Network Verification
+![Network Configuration Validation](images1/02-network-validation.png)
 
-I verified the IPv4 address, subnet mask, and default gateway after assigning the static address. This shows that the server network settings were correctly applied before domain services were installed.
 
-<img src="images/Network Connection Detals.png" alt="Network Connection Details" width="700"/>
+**Active Directory Directory Structure**
 
-Active Directory Structure
+- Organized Active Directory objects within the `Corporate` organizational unit.
+- Created departmental OUs for Finance, HR, IT, Computers, Groups, and Users.
+- Added user accounts to establish a structured directory environment for centralized administration.
 
-I created organizational units to separate departments and organize objects inside the domain. This shows how directory structure supports clean administration.
+![Active Directory Directory Structure](images1/03-directory-structure.png)
 
-<img src="images/AD Users and Computers.png" alt="AD Users and Computers" width="700"/>
 
-Group Membership Management
+**Helpdesk Group Membership**
 
-I assigned user accounts to security groups to simulate role-based administration. This shows how permissions are organized through group membership.
+- Assigned the Christopher Baker user account to the `Helpdesk-Tier1` security group.
+- Used security-group membership to support role-based access control rather than assigning permissions directly to individual users.
+- Maintained the default `Domain Users` membership while adding the helpdesk role.
 
-<img src="images/User Properties Active Directory.png" alt="User Properties Active Directory" width="700"/>
+![Helpdesk Group Membership](images1/04-group-membership.png)
 
-Group Policy Configuration
 
-I reviewed and configured password policy settings to strengthen account security across the domain. This shows how Group Policy supports centralized security control.
+**Domain Password Policy**
 
-<img src="images/Group Policy Management Editor.png" alt="Group Policy Management Editor" width="700"/>
+- Configured password policy through the Default Domain Policy in Group Policy Management.
+- Enforced password history, password-age requirements, and a minimum password length.
+- Enabled password complexity requirements and disabled reversible password encryption.
+- Applied centralized password controls to domain user accounts.
+
+![Domain Password Policy](images1/05-password-policy.png)
+
+
+**Active Directory User Validation**
+
+- Used PowerShell Active Directory cmdlets to validate domain information and user-account configuration.
+- Confirmed the `cbaker` account name and enabled status.
+- Queried the user's Active Directory security-group membership from the command line.
+
+![Active Directory User Validation](images1/06-ad-user-membership-validation.png)
+
+
+**Helpdesk Tier-1 Group Validation**
+
+- Verified the Christopher Baker account and its distinguished Active Directory location with PowerShell.
+- Queried the `Helpdesk-Tier1` security group and confirmed its assigned user accounts.
+- Validated the Active Directory domain name, NetBIOS name, and domain functional mode.
+
+![Helpdesk Tier-1 Group Validation](images1/07-helpdesk-tier1-group-validation.png)
 
 Skills Practiced
 - Windows Server installation
